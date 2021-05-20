@@ -871,3 +871,45 @@ footer {
   .lien li:nth-child(4) {
     order: 2;
   }
+
+  /* Activités */
+
+  .activities {
+    padding: 0;
+  }
+
+  .activities_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 600px;
+    margin: 0;
+    justify-content: center;
+  }
+
+  .activitie_image_large {
+    width: 280px;
+    height: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .activitie_image_medium {
+    width: 280px;
+    height: 180px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  .activitie_image_small {
+    width: 280px;
+    height: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
