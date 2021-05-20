@@ -139,3 +139,150 @@ body {
   padding-right: 10px;
   padding-left: 5%;
 }
+
+/* Mise en page des cartes hébergements */
+
+.classement {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+  
+.blue_star {
+  color: #0065fc;
+}
+
+.grey_star {
+  color: #e2e2e2;
+}
+  
+.hebergement {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-left: 0;
+}
+  
+.hebergement_list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 810px;
+  background-color: #fff;
+}
+  
+.hebergement_list a {
+  background-color: #fff;
+  box-shadow: -1px 2px 27px 0px rgba(189, 189, 189, 0.65);
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+  
+.hebergement_list a:hover {
+  box-shadow: none;
+}
+
+.room_image {
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+  
+.hebergement_list p {
+  font-size: 1.5em;
+  font-family: "Raleway-Bold";
+  margin-left: 15px;
+}
+  
+.hebergement_list h3 {
+  font-size: 1em;
+  margin-left: 10px;
+  margin-bottom: 0;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+  
+.hebergement_list h4 {
+  font-size: 0.7em;
+  margin-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+  
+.hebergement_list h5 {
+  margin-left: 20px;
+  font-size: 1em;
+  width: 100%;
+}
+ 
+.hebergement_list a {
+  text-decoration: none;
+  color: black;
+  border-radius: 25px;
+  width: 100%;
+}
+  
+.hebergement_list p {
+  font-family: "Raleway-Bold";
+  margin-left: 10px;
+}
+
+
+ /* Mise en page de la barre de recherche */
+
+ .button_with_logo {
+  border: 1px solid transparent;
+  border-radius: 6px;
+  width: fit-content;
+  height: 30px;
+  overflow: hidden;
+  display: flex;
+}
+
+.map_marker {
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-map-marker {
+  background-color: lightgray;
+}
+
+
+#research {
+  display: block;
+  border: none;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.mobile {
+  background-color: rgb(0, 119, 255);
+  border: none;
+  height:30px;
+  width: 40px;
+  /* display: none; */
+}
+
+.fa-search { 
+  color: white;
+}
+
+.desktop {
+  background-color: rgb(0, 119, 255);
+  border: none;
+  height:30px;
+  color: white;
+  display: none;
+}
+
