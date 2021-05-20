@@ -700,3 +700,60 @@ footer {
   flex-direction: row;
 }
 }
+
+
+/* BREAKPOINT pour tablette format sup */
+@media screen and (min-width: 992px) {
+
+  .liens {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .description {
+    width: 400px;
+  }
+
+  .register {
+    margin-right: 0;
+  }
+
+  .popular_room_image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .description h2 {
+    font-size: 1.5em;
+  }
+
+  .description h3 {
+    font-size: 1.2em;
+  }
+
+  .hebergement_list {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activities_list {
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .activitie_image_large,
+  .activitie_image_medium,
+  .activitie_image_small {
+    height: 200px;
+    width: 420px;
+  }
+  .hebergement_list h4 {
+    font-size: 1em;
+    font-family: "Raleway";
+    text-align: start;
+    width: 100%;
+    padding-left: 20px;
+  }
+}
