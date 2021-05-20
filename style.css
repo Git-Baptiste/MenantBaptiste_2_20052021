@@ -596,4 +596,70 @@ footer a:hover {
     padding-right: 30px;
   }
 
+  /* Hébergements */
+    
+.room_image {
+  width: 320px;
+}
+
+.hebergement_list a {
+  width: max-content;
+}
+    
+.hebergement_list p {
+  width: 100%;
+  padding-left: 60px;
+}
+    
+.hebergement_list {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
   
+.hebergement_list h2 {
+  width: 100%;
+}
+    
+.hebergement_list h4 {
+  width: 100%;
+}
+    
+/* Les plus populaires */
+    
+.most_popular {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding: 30px;
+}
+    
+.most_popular a,
+.most_popular li {
+  width: auto;
+  height: auto;
+  max-width: none;
+}
+    
+.popular_room_image {
+  width: 300px;
+  height: 200px;
+}
+    
+.most_popular h2 {
+  font-size: 1.2em;
+}
+    
+.most_popular h3 {
+  font-size: 1em;
+}
+    
+.description {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
