@@ -286,3 +286,74 @@ body {
   display: none;
 }
 
+
+* Design des filtres */
+  
+.design_filter button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearence: none;
+}
+  
+.design_filter button {
+  border-radius: 30px;
+  height: 42px;
+  width: 42px;
+  background: #deebff;
+  border: 1px solid #deebff;
+  color: #0065fc;
+  outline: none;
+  margin: 0;
+  align-self: flex-end;
+}
+  
+.filters_list button:hover {
+  color: #838383;
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
+}
+  
+.design_filter {
+  border: solid 2px #f2f2f2;
+  border-radius: 30px;
+  width: max-content;
+  padding-right: 20px;
+  border-left: none;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+  
+.filters_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+  
+.filters p {
+  margin-bottom: 0;
+  margin-right: 20px;
+  font-weight: bold;
+  align-self: center;
+}
+
+
+/* Design de la partie "infos" */
+  
+.city_info {
+  display: flex;
+  align-items: center;
+}
+  
+.i_logo {
+  display: flex;
+  color: #0065fc;
+  padding: 6px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border: solid 1px #f2f2f2;
+  border-radius: 30px;
+  justify-content: flex-start;
+  margin-right: 10px;
+}
+
+
