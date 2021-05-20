@@ -65,3 +65,77 @@ nav {
 #reservia {
   margin-left: 10px;
 }
+
+.city,
+.city_info,
+.hebergement,
+h2,
+h3 {
+  padding-left: 20px;
+}
+  
+body {
+  margin: 0;
+  padding: 0;
+}
+  
+#hebergement,
+#activities {
+  width: 50%;
+  border-bottom: solid 3px #f2f2f2;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+  
+.top_bar {
+  list-style-type: none;
+  padding-inline-start: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px;
+}
+  
+.top_bar li {
+  align-self: center;
+}
+  
+.top_bar a:hover,
+#hebergement:hover,
+#activities:hover,
+.hebergement_link:hover,
+.activities_link:hover {
+  border-color: #0065fc;
+  color: #0065fc;
+}
+  
+.hebergement_link,
+.activities_link {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  padding-bottom: 10px;
+  margin-top: 100px;
+}
+  
+.register {
+  color: #0065fc;
+  border-bottom: none;
+  width: auto;
+  text-decoration: none;
+  font-family: "Raleway-Bold";
+  align-self: baseline;
+}
+  
+.register:hover {
+  border: none;
+}
+  
+#register {
+  align-self: center;
+  padding-right: 10px;
+  padding-left: 5%;
+}
