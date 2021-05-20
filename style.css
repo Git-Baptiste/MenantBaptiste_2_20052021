@@ -1,0 +1,67 @@
+body {
+  /* font-size: 20px; */
+  font-family: 'Raleway', sans-serif;
+}
+  
+
+  
+.title h2 {
+  padding-left: 0;
+}
+
+  /* Téléphone */
+
+.title {
+  padding-left: 20px;
+}
+  
+.title h3 {
+  padding-left: 0;
+}
+  
+img {
+  object-fit: cover;
+}
+  
+header {
+  display: flex;
+}
+  
+  
+nav {
+  display: flex;
+  width: 100%;
+}
+  
+.liens {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-top: 0;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+  
+#ancre-2, #ancre-1 {
+  border-top: none;
+}
+  
+.logo {
+  width: 120px;
+  border: none;
+  object-fit: fill;
+}
+
+.reservia:hover {
+  border: none;
+}
+  
+.reservia {
+  width: fit-content;
+}
+  
+#reservia {
+  margin-left: 10px;
+}
