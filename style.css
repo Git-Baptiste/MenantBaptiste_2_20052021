@@ -253,7 +253,7 @@ body {
   align-items: center;
 }
 
-.fa-map-marker {
+.fa-map-marker-alt {
   background-color: lightgray;
 }
 
@@ -271,6 +271,7 @@ body {
   border: none;
   height:40px;
   width: 50px;
+  border-radius: 0px 12px 12px 0px;
   /* display: none; */
 }
 
@@ -283,6 +284,7 @@ body {
   border: none;
   height:40px;
   color: white;
+  border-radius: 0px 12px 12px 0px;
   display: none;
 }
 
@@ -828,7 +830,7 @@ footer {
   }
 
   .hebergement_list a {
-    margin: 10px;
+    margin: 30px;
     height: fit-content;
   }
 
@@ -1064,7 +1066,7 @@ footer {
   }
 
   .hebergement_list a {
-    margin-left: auto;
+    margin: 60px;
   }
 
   .hebergement_list a:hover {
@@ -1114,10 +1116,7 @@ footer {
     border-radius: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 20px 0 0;
   }
 
   .popular_room_image {
@@ -1200,7 +1199,7 @@ footer {
   footer {
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    max-width: 100%;
     padding-right: 0;
   }
 
