@@ -1,5 +1,5 @@
 body {
-  /* font-size: 20px; */
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
 }
   
@@ -126,7 +126,7 @@ body {
   border-bottom: none;
   width: auto;
   text-decoration: none;
-  font-family: "Raleway-Bold";
+  /* font-family: "Raleway"; */
   align-self: baseline;
 }
   
@@ -144,10 +144,10 @@ body {
 
 .classement {
   display: flex;
-  justify-content: space-between;
-  width: 70px;
+  /* justify-content: space-between;
+  width: 70px; */
   margin-left: 20px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
   
 .blue_star {
@@ -193,7 +193,7 @@ body {
   
 .hebergement_list p {
   font-size: 1.5em;
-  font-family: "Raleway-Bold";
+  /* font-family: "Raleway"; */
   margin-left: 15px;
 }
   
@@ -227,7 +227,7 @@ body {
 }
   
 .hebergement_list p {
-  font-family: "Raleway-Bold";
+  font-family: "Raleway";
   margin-left: 10px;
 }
 
@@ -236,17 +236,17 @@ body {
 
  .button_with_logo {
   border: 1px solid transparent;
-  border-radius: 6px;
+  border-radius: 12px;
   width: fit-content;
-  height: 30px;
+  height: 40px;
   overflow: hidden;
   display: flex;
 }
 
 .map_marker {
   display: block;
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   background-color: lightgray;
   display: flex;
   justify-content: center;
@@ -269,8 +269,8 @@ body {
 .mobile {
   background-color: rgb(0, 119, 255);
   border: none;
-  height:30px;
-  width: 40px;
+  height:40px;
+  width: 50px;
   /* display: none; */
 }
 
@@ -281,19 +281,14 @@ body {
 .desktop {
   background-color: rgb(0, 119, 255);
   border: none;
-  height:30px;
+  height:40px;
   color: white;
   display: none;
 }
 
 
-* Design des filtres */
+/* Design des filtres */
   
-.design_filter button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearence: none;
-}
   
 .design_filter button {
   border-radius: 30px;
@@ -334,6 +329,11 @@ body {
   margin-right: 20px;
   font-weight: bold;
   align-self: center;
+}
+
+.filters h2 {
+  font-size: 20px;
+  padding: 0;
 }
 
 
@@ -400,7 +400,7 @@ body {
   
 .most_popular p {
   font-size: 1.6em;
-  font-family: "Raleway-Bold";
+  font-family: "Raleway";
 }
   
 .description h2 {
@@ -409,7 +409,6 @@ body {
   
 .most_popular h3 {
   font-size: 0.6em;
-  font-family: "Raleway-Thin";
 }
   
 .most_popular_list {
@@ -443,7 +442,7 @@ body {
   
 .activities h2 {
   font-size: 1.6em;
-  font-family: "Raleway-Bold";
+  /* font-family: "Raleway-Bold"; */
   padding-left: 0;
 }
   
@@ -466,7 +465,7 @@ body {
   
 footer h2 {
   font-size: 1.1em;
-  font-family: "Raleway-Bold";
+  /* font-family: "Raleway-Bold"; */
   padding-left: 0;
 }
   
@@ -661,7 +660,7 @@ footer a:hover {
   width: 300px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 /* Activités */
@@ -819,6 +818,7 @@ footer {
 
   .description {
     width: auto;
+    height: auto;
   }
 
   .hebergement_list {
@@ -1093,10 +1093,10 @@ footer {
 
   .classement {
     display: flex;
-    justify-content: space-between;
-    width: 70px;
+    /* justify-content: space-between; */
+    /* width: 70px; */
     margin-left: 30px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
   }
 
   .blue_star {
@@ -1193,3 +1193,60 @@ footer {
     background: #f2f2f2;
     box-shadow: none;
   }
+
+
+  /* Footer */
+
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .content {
+    padding: 20px;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+  }
+}
+
+@media screen and (min-width: 522px) and (max-width: 768px) {
+  #register {
+    padding-left: 170px;
+  }
+
+  .most_popular a {
+    min-width: 380px;
+    align-self: center;
+  }
+
+  .hebergement_list a {
+    width: 40%;
+  }
+
+  .hebergement_list h2 {
+    width: 100%;
+  }
+
+  .hebergement_list h5 {
+    text-align: center;
+  }
+
+  .hebergement_list {
+    justify-content: center;
+  }
+
+  .most_popular {
+    border-radius: 20px;
+    margin: 40px;
+  }
+}
+
+@media screen and (min-width: 468px) and (max-width: 521px) {
+  .register {
+    margin-left: 30px;
+  }
+}
